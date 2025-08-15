@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav className="navbar">
-        <div className="logo">MiSitio</div>
+        <div className=""><img className='img-logo' src="https://imagesspamiranda.s3.us-east-2.amazonaws.com/LOGO.png" alt="" /></div>
         <div className={`menu ${open ? 'open' : ''}`}>
           <Link to="/">Inicio</Link>
           <Link to="/servicios">Servicios</Link>

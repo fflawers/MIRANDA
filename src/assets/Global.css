@@ -32,7 +32,7 @@
 
 /* Footer */
 .footer {
-  background-color: #3498DB;
+  background-color: #1B5E3A;
   color: #333333;
   text-align: center;
   padding: 1rem;
@@ -47,7 +47,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: #3498DB;
+    background-color: rgb(255, 255, 255); 
     display: none;
     padding: 1rem;
     z-index: 10;
@@ -71,7 +71,6 @@
 }
 
 
-
 /* Index */
 
 .BackgroundSuccess {
@@ -91,6 +90,11 @@
  @media (min-width: 768px) { 
   width: 50%;
   }
+}
+
+.img-logo{
+  height: 100px;
+  width: 100px;
 }
 
 .button-reserva{
@@ -186,3 +190,410 @@
     font-size: 1.5rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/Index.css */
+
+/* Spa Colors */
+.bg-spa-cream {
+  background-color: #F5F6F5; /* Soft cream background */
+}
+
+.text-spa-green {
+  color: #2E8B57; /* Spa green for headings and accents */
+}
+
+.bg-spa-green {
+  background-color: #2E8B57; /* Spa green for buttons */
+}
+
+.btn-spa-green {
+  background-color: #2E8B57 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn-spa-green:hover {
+  background-color: #1B5E3A !important; /* Darker green on hover */
+  color: #fff !important;
+}
+
+.bg-spa-gold {
+  background-color: #D4A017; /* Gold for CTA section */
+}
+
+
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+  color: #FFFFFF;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Service Images */
+/* Estilos para las imágenes responsivas */
+.images-index {
+  width: 100%;        /* Ocupa todo el ancho disponible */
+  height: 300px;      /* Altura fija para mantener uniformidad */
+  object-fit: cover;   /* Cubre el espacio sin distorsionar */
+  object-position: center; /* Enfoca el centro de la imagen */
+  transition: transform 0.3s ease; /* Efecto hover opcional */
+}
+
+/* Contenedor de la imagen para mantener relación de aspecto */
+.service-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efecto hover para mejorar la interacción */
+.service-img-wrapper:hover .images-index {
+  transform: scale(1.05);
+}
+
+/* Ajustes para diferentes tamaños de pantalla */
+@media (max-width: 992px) {
+  .images-index {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .images-index {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .images-index {
+    height: 180px;
+  }
+}
+
+.service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.service-img-wrapper:hover .service-overlay {
+  opacity: 1;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 60vh;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/AcercaDe.css */
+
+/* Spa Colors (same as Index for consistency) */
+.bg-spa-cream {
+  background-color: #F5F6F5; /* Soft cream background */
+}
+
+.text-spa-green {
+  color: #2E8B57; /* Spa green for headings and accents */
+}
+
+.bg-spa-green {
+  background-color: #2E8B57; /* Spa green for buttons */
+}
+
+
+
+.bg-spa-gold {
+  background-color: #D4A017; /* Gold for CTA section */
+}
+
+
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/Servicios.css */
+
+/* Spa Colors (same as Index and AcercaDe for consistency) */
+.bg-spa-cream {
+  background-color: #F5F6F5; /* Soft cream background */
+}
+
+.text-spa-green {
+  color: #2E8B57; /* Spa green for headings and accents */
+}
+
+.bg-spa-green {
+  background-color: #2E8B57; /* Spa green for buttons */
+}
+
+
+
+.bg-spa-gold {
+  background-color: #D4A017; /* Gold for CTA section */
+}
+
+
+
+
+
+
+/* Service Cards */
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet: Reducir tamaño a 400px */
+@media (max-width: 768px) {
+  .images-index {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Móvil: Reducir a 300px y altura automática */
+@media (max-width: 480px) {
+  .images-index {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/Contacto.css */
+
+/* Spa Colors (same as Index, AcercaDe, and Servicios for consistency) */
+.bg-spa-cream {
+  background-color: #F5F6F5; /* Soft cream background */
+}
+
+.text-spa-green {
+  color: #2E8B57; /* Spa green for headings and accents */
+}
+
+.bg-spa-green {
+  background-color: #2E8B57; /* Spa green for buttons */
+}
+
+
+
+.bg-spa-gold {
+  background-color: #D4A017; /* Gold for CTA section */
+}
+
+.btn-spa-gold {
+  background-color: #D4A017 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn-spa-gold:hover {
+  background-color: #B8860B !important; /* Darker gold on hover */
+  color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* src/components/TermsAndConditions.css */
+
+/* Spa Colors (same as other components for consistency) */
+.bg-spa-cream {
+  background-color: #F5F6F5; /* Soft cream background */
+}
+
+.text-spa-green {
+  color: #2E8B57; /* Spa green for headings and accents */
+}
+
+.bg-spa-green {
+  background-color: #2E8B57; /* Spa green for buttons */
+}
+
+
+
+.bg-spa-gold {
+  background-color: #D4A017; /* Gold for CTA section */
+}
+
+
+
+
+
+
+
+
+
+/* Navigation Pills */
+.nav-pills .nav-link {
+  transition: background-color 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: #2E8B57;
+  color: #fff;
+}
+

@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from '../footer/Footer';
 const Contacto = () => {
   return (
-    <div>
+    <div className='BackgroundSuccess'>
        <Navbar />
     <div className="container my-5">
       <h2 className="text-center mb-4">Contáctanos</h2>

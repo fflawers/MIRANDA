@@ -3,32 +3,32 @@ import VanillaTilt from "vanilla-tilt";
 
 const stepsData = [
     {
-        img: "src/statics/127455121078.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/127455121078.jpg",
         alt: "Doble cobertura nacional",
         text: ["Tu oasis personal en medio del caos"],
     },
     {
-        img: "src/statics/127455121076.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/127455121076.jpg",
         alt: "Auto-recarga",
         text: ["Relaja tu cuerpo, renueva tu alma"],
     },
     {
-        img: "src/statics/1.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/1.jpg",
         alt: "Conserva tu número",
         text: ["Cada detalle pensado para tu bienestar"],
     },
     {
-        img: "src/statics/12745512107.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/12745512107.jpg",
         alt: "Atención personalizada",
         text: ["El lujo de cuidarte, sin prisa"],
     },
     {
-        img: "src/statics/0.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/0.jpg",
         alt: "Garantía de satisfacción",
         text: ["Donde el tiempo se detiene para ti"],
     },
     {
-        img: "src/statics/127455121079.jpg",
+        img: "https://imagesspamiranda.s3.us-east-2.amazonaws.com/127455121079.jpg",
         alt: "Sin plazos forzosos",
         text: ["Belleza y paz en perfecta armonía"],
     },

@@ -4,7 +4,7 @@ import Footer from '../footer/Footer';
 
 const AcercaDe = () => {
   return (
-    <div>
+    <div className='BackgroundSuccess'>
        <Navbar />
     <div className="container my-5">
       <h2 className="text-center mb-4">Sobre Nosotros</h2>

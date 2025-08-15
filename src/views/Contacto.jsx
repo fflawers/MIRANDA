@@ -1,7 +1,10 @@
 import React from 'react';
-
+import Navbar from "../Navbar/Navbar";
+import Footer from '../footer/Footer';
 const Contacto = () => {
   return (
+    <div>
+       <Navbar />
     <div className="container my-5">
       <h2 className="text-center mb-4">Contáctanos</h2>
       <div className="row">
@@ -47,6 +50,8 @@ const Contacto = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

@@ -73,6 +73,10 @@
 
 
 /* Index */
+
+.BackgroundSuccess {
+  background-image: linear-gradient(to bottom, #52C3FF, #E8ECF0); /* Usa background-image en lugar de background */
+}
 .titleIND{
  font-weight: 800;
 }

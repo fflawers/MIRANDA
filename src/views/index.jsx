@@ -1,11 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import Navbar from "../Navbar/Navbar";
+import Footer from '../footer/Footer';
 const Index = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="container">
+       
+        <div className="BackgroundSuccess">
+             <Navbar />
+        <div className="container pt-5">
             <div className="container-fluid">
                 <h1 className="text-center titleIND">Renueva tu ser, vive la elegancia del descanso</h1>
                 <div className="">
@@ -25,6 +29,8 @@ const Index = () => {
                     </button>
                 </div>
             </div>
+        </div>
+        <Footer />
         </div>
     );
 };

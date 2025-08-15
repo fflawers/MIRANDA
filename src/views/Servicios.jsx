@@ -1,5 +1,6 @@
 import React from "react";
-
+import Navbar from "../Navbar/Navbar";
+import Footer from '../footer/Footer';
 
 const servicios = [
   {
@@ -26,6 +27,8 @@ const servicios = [
 
 const Servicios = () => {
   return (
+    <div>
+       <Navbar />
     <div className="container my-5">
       <h2 className="text-center mb-4">Nuestros Servicios Premium</h2>
       <div className="row g-4">
@@ -41,6 +44,8 @@ const Servicios = () => {
           </div>
         ))}
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

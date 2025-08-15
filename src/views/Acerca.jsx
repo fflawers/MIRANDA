@@ -1,7 +1,11 @@
 import React from 'react';
+import Navbar from "../Navbar/Navbar";
+import Footer from '../footer/Footer';
 
 const AcercaDe = () => {
   return (
+    <div>
+       <Navbar />
     <div className="container my-5">
       <h2 className="text-center mb-4">Sobre Nosotros</h2>
       <div className="row align-items-center">
@@ -26,6 +30,8 @@ const AcercaDe = () => {
           </p>
         </div>
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from '../footer/Footer';
+import Unicos from "../Modales/Unicos";
 const Index = () => {
     const navigate = useNavigate();
 
@@ -24,12 +25,13 @@ const Index = () => {
 
                 <div className="text-center">
                     <p className="text-p">Reserva tu experiencia premium</p>
-                    <button className="button-reserva" onClick={() => navigate("/servicios")}>
+                    <button className="button-reserva" onClick={() => navigate("/contacto")}>
                         RESERVACIONES
                     </button>
                 </div>
             </div>
         </div>
+        <Unicos/>
         <Footer />
         </div>
     );

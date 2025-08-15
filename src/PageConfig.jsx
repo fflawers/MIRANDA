@@ -9,12 +9,14 @@ import AcercaDe from './views/Acerca';
 
 const PageConfig = () => {
   return (
-    <Routes>
+    <Router basename="/MIRANDA"> 
+      <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/servicios" element={<Servicios/>} />
       <Route path="/contacto" element={<Contacto/>} />
       <Route path="/acerca" element={<AcercaDe/>} />
     </Routes>
+    </Router>
   );
 };
 

@@ -8,10 +8,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">MiSitio</div>
       <div className={`menu ${open ? 'open' : ''}`}>
-        <a href="/">Inicio</a>
-        <a href="/servicios">Servicios</a>
-        <a href="/contacto">Contacto</a>
-        <a href="/acerca">Acerca</a>
+        <Link to="/">Inicio</Link>
+        <Link to="/servicios">Servicios</Link>
+        <Link to="/contacto">Contacto</Link>
+        <Link to="/acerca">Acerca</Link>
       </div>
       <div className="hamburger" onClick={() => setOpen(!open)}>
         ☰

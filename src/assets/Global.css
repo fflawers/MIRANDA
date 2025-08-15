@@ -1,0 +1,99 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  color: #333333;
+  position: relative;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #3498DB;
+  color: #333333;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #333;
+    display: none;
+    padding: 1rem;
+    z-index: 10;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+.colors{
+  background-color: #2C3E50 (azul oscuro profesional)
+  #3498DB (azul brillante para botones)
+  #E74C3C (rojo vibrante para llamadas a la acción)
+  #F5F5F5 (gris claro)
+  #333333 (negro suave)
+}
+
+
+
+/* Index */
+.text-p{
+  font-size: 2em;
+  font-weight: 700;
+
+}
+
+.img-spa1{
+  width: 25%;
+}
+
+.button-reserva{
+  box-shadow: 2.5px 5px 2px 2px #2C3E50;
+  border-radius: 10px;
+  background-color: #3498DB ;
+  color: #F5F5F5;
+  max-width: 150px;
+  height: 45px;
+  font-weight: 800;
+
+}
+.button-reserva:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}

@@ -11,7 +11,7 @@ const App = () => {
     <BrowserRouter>
     <Navbar/>
       <PageConfig />
-      <Footer/>
+    <Footer/>
     </BrowserRouter>
 
   );

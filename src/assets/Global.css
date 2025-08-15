@@ -20,7 +20,7 @@
 }
 
 .menu a {
-  color: #333333;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: #333;
+    background-color: #3498DB;
     display: none;
     padding: 1rem;
     z-index: 10;

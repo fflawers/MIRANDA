@@ -62,7 +62,7 @@ const Unicos = () => {
     };
 
     return(
-        <div className="container squareBlackU p-0 mt-4">
+        <div className="container squareBlackU p-0 my-4">
             <div className="row justify-content-center text-center backgroundUnicos m-0 py-2">
                 {stepsData.map((step, i) => (
                     <div

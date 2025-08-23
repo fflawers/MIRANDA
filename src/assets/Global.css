@@ -33,10 +33,10 @@
 /* Footer */
 .footer {
   background-color: #1B5E3A;
-  color: #333333;
+  color: #FFFFFF;
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  margin-top: 0rem;
 }
 
 /* Responsive */
@@ -116,7 +116,7 @@
 /* Footer */
 
 .footertext {
-  color: #000000;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 800;
 }
@@ -208,7 +208,7 @@
 
 /* Spa Colors */
 .bg-spa-cream {
-  background-color: #F5F6F5; /* Soft cream background */
+  background-color: #FFFFFF; /* Soft cream background */
 }
 
 .text-spa-green {
@@ -234,7 +234,11 @@
   background-color: #D4A017; /* Gold for CTA section */
 }
 
-
+.btn-spa-gold {
+    background-color: #d4a017 !important;
+    color: #fff !important;
+    border: none !important;
+}
 
 /* Hero Section */
 .hero-section {
@@ -364,36 +368,6 @@
 
 
 
-/* src/components/AcercaDe.css */
-
-/* Spa Colors (same as Index for consistency) */
-.bg-spa-cream {
-  background-color: #F5F6F5; /* Soft cream background */
-}
-
-.text-spa-green {
-  color: #2E8B57; /* Spa green for headings and accents */
-}
-
-.bg-spa-green {
-  background-color: #2E8B57; /* Spa green for buttons */
-}
-
-
-
-.bg-spa-gold {
-  background-color: #D4A017; /* Gold for CTA section */
-}
-
-
-
-/* Hero Section */
-.hero-section {
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
-  position: relative;
-}
 
 
 
@@ -416,36 +390,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* src/components/Servicios.css */
-
-/* Spa Colors (same as Index and AcercaDe for consistency) */
-.bg-spa-cream {
-  background-color: #F5F6F5; /* Soft cream background */
-}
-
-.text-spa-green {
-  color: #2E8B57; /* Spa green for headings and accents */
-}
-
-.bg-spa-green {
-  background-color: #2E8B57; /* Spa green for buttons */
-}
-
-
-
-.bg-spa-gold {
-  background-color: #D4A017; /* Gold for CTA section */
-}
 
 
 
@@ -503,81 +447,6 @@
 
 
 
-
-/* src/components/Contacto.css */
-
-/* Spa Colors (same as Index, AcercaDe, and Servicios for consistency) */
-.bg-spa-cream {
-  background-color: #F5F6F5; /* Soft cream background */
-}
-
-.text-spa-green {
-  color: #2E8B57; /* Spa green for headings and accents */
-}
-
-.bg-spa-green {
-  background-color: #2E8B57; /* Spa green for buttons */
-}
-
-
-
-.bg-spa-gold {
-  background-color: #D4A017; /* Gold for CTA section */
-}
-
-.btn-spa-gold {
-  background-color: #D4A017 !important;
-  color: #fff !important;
-  border: none !important;
-}
-
-.btn-spa-gold:hover {
-  background-color: #B8860B !important; /* Darker gold on hover */
-  color: #fff !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* src/components/TermsAndConditions.css */
-
-/* Spa Colors (same as other components for consistency) */
-.bg-spa-cream {
-  background-color: #F5F6F5; /* Soft cream background */
-}
-
-.text-spa-green {
-  color: #2E8B57; /* Spa green for headings and accents */
-}
-
-.bg-spa-green {
-  background-color: #2E8B57; /* Spa green for buttons */
-}
-
-
-
-.bg-spa-gold {
-  background-color: #D4A017; /* Gold for CTA section */
-}
 
 
 
